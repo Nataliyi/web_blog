@@ -126,5 +126,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 LOGIN_REDIRECT_URL = '/'
-db_from_env = dj_database_url.config(conn_max_age=500)
+
+db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)
