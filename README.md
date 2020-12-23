@@ -1,4 +1,4 @@
-# my-first-blog
+# web_blog
 
-# chcp 1251
-# psql -U postgres -h localhost postgres;
+Первые движения в сторону фреймворка Django. 
+Создаем свой блог, загружаем темы, добавляем стилей.
